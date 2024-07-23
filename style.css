@@ -11,3 +11,31 @@
 .foli{  
     font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
+.h3{
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}   
+.para{
+    font-family: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+.portfolio{
+    color: white;
+}
+.portfolio:hover{
+    color:  #1abc9c;
+}
+
+.image{
+    border-radius: 10px;
+}
+.image:hover{
+    color: #1abc9c;
+    cursor: pointer;
+}
+.button{
+    color: white;
+}
+.button:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
