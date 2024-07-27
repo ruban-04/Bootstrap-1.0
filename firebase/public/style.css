@@ -51,7 +51,6 @@
     border-radius: 10px;
     opacity: 0;
     background-color: rgb(26 188 156) ;
-    cursor: pointer;
   }
   .bx-plus{
     border-radius:5px;
@@ -94,12 +93,5 @@
      text-align: center; 
      justify-content: center; 
    }
-   .btn{
-    font-family:  "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-    cursor: pointer;
-   }
-  .text-white{
-    font-family: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-    font-size: 14px;
-  }
+  
  
