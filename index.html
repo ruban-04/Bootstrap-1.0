@@ -14,13 +14,50 @@
     <title>Bootstrap first task</title>
 </head>
 <body>
-    <div class="container-fluid sticky-top" style="background-color:#2C3E50;padding: 19px 0px;">
+  <nav class="navbar navbar-expand-lg sticky-top navbar-light " style="background-color: #2C3E50;padding: 18px 0px">
+    <div class="container-fluid">
+      <!-- <a class="h2 navbar-brand text-white" href="#">START BOOTSTRAP</a> -->
+      <P class="h2 text-white pt-3 boot1" style="padding-left: 100px; font-weight: bold;font-size: 28px;cursor: pointer;">START BOOTSTRAP</p>
+      <button class="navbar-toggler d-flex d-lg-none align-items-center" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="fs-4 text-white" style="background-color: rgb(26 188 156);font-size: 12px;">MENU</span><span class="navbar-toggler-icon fs-5 "></span>
+      </button>
+      <div class="collapse navbar-collapse " id="navbarScroll">
+        <ul class="list-inline ms-auto" style="padding-right: 114px;"  >
+          <!-- <li class="nav-item">
+            <a class="nav-link active text-white portfolio" aria-current="page" href="#">PORTFOLIO</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white portfolio" href="#">ABOUT</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link text-white portfolio" href="#"  >
+              CONTACT
+            </a> -->
+            <li class="list-inline-item " style="padding-top: 20px; font-weight: bold; "><a class="text-decoration-none portfolio"href="http://127.0.0.1:5500/index.html#:~:text=Web%20Designer%20%2D%20illustrator-,PORTFOLIO,-ABOUT">PORTFOLIO</a></li>
+            <li class="list-inline-item" style="padding-top: 20px; font-weight: bold; padding-left: 28px;"><a class="text-decoration-none portfolio"href="http://127.0.0.1:5500/index.html#:~:text=PORTFOLIO-,ABOUT,-Freelancer%20is%20a">ABOUT</a></li>
+            <li class="list-inline-item" style="padding-top: 20px; font-weight: bold; padding-left: 28px;"><a class="text-decoration-none portfolio"href="http://127.0.0.1:5500/index.html#:~:text=Free%20Download!-,CONTACT%20ME,-Send">CONTACT</a></li>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+    <!-- <div class="container-fluid sticky-top" style="background-color:#2C3E50;padding: 19px 0px;">
             <header>
-                <div class="row p-0 m-0">
-                <div class="col h2">
+                <div class="row p-0 m-0" >
+                <div class="col h2 d-flex">
                     <P class="h2 text-white pt-3 boot1" style="padding-left: 100px; font-weight: bold;font-size: 28px;cursor: pointer;">START BOOTSTRAP</p>
+                <div class="dropdown d-flex d-lg-none d-md-flex justify-content-end">
+                  <button type="button" class="btn boot1 p-2 d-flex align-self-center " style="background-color: rgb(26 188 156);color: white;" data-bs-toggle="dropdown">
+                    MENU <i class='bx bx-menu'style="font-size:20px;"></i>
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="http://127.0.0.1:5500/boot.html#:~:text=Web%20Designer%20%2D%20illustrator-,PORTFOLIO">PORTFOLIO</a></li>
+                    <li><a class="dropdown-item" href="http://127.0.0.1:5500/boot.html#http://127.0.0.1:5500/boot.html#:~:text=PORTFOLIO-,ABOUT,-Freelancer%20is%20a">ABOUT</a></li>
+                    <li><a class="dropdown-item" href="http://127.0.0.1:5500/boot.html#:~:text=Free%20Download!-,CONTACT%20ME,-Full%20name">CONTACT</a></li>
+                  </ul>
                 </div>
-                <div class="col d-flex justify-content-end">
+                </div>
+                <div class="col d-lg-flex  d-none  justify-content-end">
                 <ul class="list-inline" style="padding-right:120px;">
                     <li class="list-inline-item " style="padding-top: 20px; font-weight: bold; "><a class="text-decoration-none portfolio"href="http://127.0.0.1:5500/index.html#:~:text=Web%20Designer%20%2D%20illustrator-,PORTFOLIO,-ABOUT">PORTFOLIO</a></li>
                     <li class="list-inline-item" style="padding-top: 20px; font-weight: bold; padding-left: 28px;"><a class="text-decoration-none portfolio"href="http://127.0.0.1:5500/index.html#:~:text=PORTFOLIO-,ABOUT,-Freelancer%20is%20a">ABOUT</a></li>
@@ -29,10 +66,10 @@
                 </div>
             </div>
             </header>
-            </div>
+            </div> -->
          <div class="container-fluid" style="background-color: rgb(26 188 156);margin-bottom: 90px;">
            <div  class=" col d-flex justify-content-center"><img src="bootstrap image-1/avataaars.svg" style="width: 240px;height: 260px;margin-top: 92px;"> </div>
-            <p class="d-flex justify-content-center text-white boot1 pt-4" style="font-size: 64px;font-weight: bold;margin-bottom: 0rem;">START BOOTSTRAP</p>
+            <p class=" start d-flex justify-content-center text-white boot1 pt-4" style="font-size: 64px;font-weight: bold;margin-bottom: 0rem;">START BOOTSTRAP</p>
             <div class="d-flex justify-content-center">
             <div class=" text-white mt-4" style="width: 100%; max-width:7rem;height: 0%; border: 2.5px solid;border-radius: 4px;"></div>
             <div class=" text-white mx-3" style="font-size: 40px;"><i class='bx bxs-star' ></i></div>
@@ -50,7 +87,7 @@
             </div>
             <div class="container " >
             <div class="row d-flex mt-4 " style="flex-wrap: wrap;">
-                <div class="photo col-4 mb-5 pe-4">
+                <div class="photo col-lg-4 col-md-6 mb-5 pe-4">
                     <img class=" image staticBackdrop" src="bootstrap image-1/cabin.png" alt="boot" data-bs-toggle="modal" data-bs-target="#staticBackdrop" >
                     <div class="modal fade"id="cabin" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
                       <div class="modal-dialog modal-xl" >
@@ -58,7 +95,7 @@
                             <button type="button" class="btn-close m-3"style="font-size:2rem;align-self:end;" data-bs-dismiss="modal" aria-label="Close"></button>
 
                           <div class="header">
-                            <p class="modal-title boot1 col d-flex justify-content-center pt-4" style="font-size: 48px;color:#2C3E50;font-weight: bolder;" id="staticBackdropLabel">LOG CABIN</p>
+                            <p class="modal-title boot1 col d-flex justify-content-center pt-4 pt-md-0" style="font-size: 48px;color:#2C3E50;font-weight: bolder;" id="staticBackdropLabel">LOG CABIN</p>
                             </div>
                             <div class="d-flex justify-content-center">
                               <div class=" mt-4" style="width: 100%; max-width:7.5rem;height: 0%; border: 2.4px solid;border-radius: 4px;color:  #2C3E50;"></div>
@@ -67,10 +104,10 @@
                           </div>
                           
                         <div class="modal-body" style="align-self: center;">
-                              <img class="col d-flex "src="bootstrap image-1/cabin.png" style="width:712px; height:513px; border-radius: 10px;">
+                              <img class="lay d-flex "src="bootstrap image-1/cabin.png" style="width:712px; height:513px; border-radius: 10px;">
                             </div>
                         <div>
-                              <p class="boot2 " style="font-size: 16px;margin: 2rem 14rem; text-align: center;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                              <p class="paralay" style="font-size: 16px;margin: 2rem 14rem; text-align: center;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
                           </div>
                           <div class="footer pb-5" style="align-self: center;">
                             <button type="button" class="btn text-white col d-flex" style="background-color: rgb(26 188 156);font-size: 16px;"data-bs-dismiss="modal"><i class='bx bx-x' id="mark"></i> Close Window </button>
@@ -87,7 +124,7 @@
 
 
                 
-                <div class=" photo col-4 mb-5 pe-4">
+                <div class=" photo col-lg-4 col-md-6 mb-5 pe-4">
                     
                     <img class=" image staticBackdrop" src="bootstrap image-1/cake.png" alt="boot" data-bs-toggle="modal" data-bs-target="#staticBackdrop" >
                     <div class="modal fade"id="cake" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
@@ -96,7 +133,7 @@
                             <button     type="button" class="btn-close m-3 " style="font-size:2rem;align-self:end;" data-bs-dismiss="modal" aria-label="Close"></button>
 
                           <div class="header">
-                            <p class="modal-title boot1 col d-flex justify-content-center pt-4" style="font-size: 48px;color:#2C3E50;font-weight: bolder;" id="staticBackdropLabel">TASTY CAKE</p>
+                            <p class="modal-title boot1 col d-flex justify-content-center pt-4 pt-md-0" style="font-size: 48px;color:#2C3E50;font-weight: bolder;" id="staticBackdropLabel">TASTY CAKE</p>
                             </div>
                             <div class="d-flex justify-content-center">
                               <div class=" mt-4" style="width: 100%; max-width:7.5rem;height: 0%; border: 2.4px solid;border-radius: 4px;color:  #2C3E50;"></div>
@@ -105,10 +142,10 @@
                           </div>
                           
                         <div class="modal-body" style="align-self: center;">
-                              <img class="col d-flex "src="bootstrap image-1/cake.png" style="width:712px; height:513px; border-radius: 10px;">
+                              <img class="lay d-flex "src="bootstrap image-1/cake.png" style="width:712px; height:513px; border-radius: 10px;">
                             </div>
                         <div>
-                            <p class="boot2 " style="font-size: 16px;margin: 2rem 14rem;text-align: center;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                            <p class="paralay " style="font-size: 16px;margin: 2rem 14rem;text-align: center;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
                           
                           </div>
                           <div class="footer mb-5" style="align-self: center;">
@@ -124,7 +161,7 @@
                         
                         </div>
                         </div>
-                <div class="photo col-4 mb-5 pe-4"> 
+                <div class="photo col-lg-4 col-md-6 mb-5 pe-4"> 
                     
                     <img class=" image staticBackdrop" src="bootstrap image-1/circus.png" alt="boot" data-bs-toggle="modal" data-bs-target="#staticBackdrop" >
                     <div class="modal fade"id="circus" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
@@ -133,7 +170,7 @@
                             <button type="button" class="btn-close  m-3"style="font-size:2rem;align-self:end;" data-bs-dismiss="modal" aria-label="Close"></button>
 
                           <div class="header">
-                            <p class="modal-title boot1 col d-flex justify-content-center pt-4" style="font-size: 48px;color:#2C3E50;font-weight: bolder;" id="staticBackdropLabel">CIRCUS TENT</p>
+                            <p class="modal-title boot1 col d-flex justify-content-center pt-4 pt-md-0" style="font-size: 48px;color:#2C3E50;font-weight: bolder;" id="staticBackdropLabel">CIRCUS TENT</p>
                             </div>
                             <div class="d-flex justify-content-center">
                               <div class=" mt-4" style="width: 100%; max-width:7.5rem;height: 0%; border: 2.4px solid;border-radius: 4px;color:  #2C3E50;"></div>
@@ -142,10 +179,10 @@
                           </div>
                           
                         <div class="modal-body" style="align-self: center;">
-                              <img class="col d-flex "src="bootstrap image-1/circus.png" style="width:712px; height:513px; border-radius: 10px;">
+                              <img class="lay d-flex "src="bootstrap image-1/circus.png" style="width:712px; height:513px; border-radius: 10px;">
                             </div>
                         <div>
-                              <p class="boot2" style="font-size: 16px;margin: 2rem 14rem; text-align: center;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                              <p class="paralay" style="font-size: 16px;margin: 2rem 14rem; text-align: center;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
                           </div>
                           <div class="footer pb-5" style="align-self: center;">
                             <button type="button" class="btn text-white col d-flex " style="background-color: rgb(26 188 156);font-size: 16px;"data-bs-dismiss="modal"><i class='bx bx-x' id="mark"></i> Close Window </button>
@@ -160,7 +197,7 @@
                        
                         </div>
                 </div>
-                <div class="photo col-4 mb-5 pe-4">
+                <div class="photo col-lg-4  col-md-6 mb-5 pe-4">
                     
                     <img class=" image staticBackdrop" src="bootstrap image-1/game.png" alt="boot" data-bs-toggle="modal" data-bs-target="#staticBackdrop" >
                     <div class="modal fade"id="game" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
@@ -169,7 +206,7 @@
                             <button type="button" class="btn-close  m-3"style="font-size:2rem;align-self:end;" data-bs-dismiss="modal" aria-label="Close"></button>
 
                           <div class="header">
-                            <p class="modal-title boot1 col d-flex justify-content-center pt-4" style="font-size: 48px;color:#2C3E50;font-weight: bolder;" id="staticBackdropLabel">CONTROLLER</p>
+                            <p class="modal-title boot1 col d-flex justify-content-center pt-4 pt-md-0" style="font-size: 48px;color:#2C3E50;font-weight: bolder;" id="staticBackdropLabel">CONTROLLER</p>
                             </div>
                             <div class="d-flex justify-content-center">
                               <div class=" mt-4" style="width: 100%; max-width:7.5rem;height: 0%; border: 2.4px solid;border-radius: 4px;color:  #2C3E50;"></div>
@@ -178,10 +215,10 @@
                           </div>
                           
                         <div class="modal-body" style="align-self: center;">
-                              <img class="col d-flex "src="bootstrap image-1/game.png" style="width:712px; height:513px; border-radius: 10px;">
+                              <img class="lay d-flex "src="bootstrap image-1/game.png" style="width:712px; height:513px; border-radius: 10px;">
                             </div>
                         <div>
-                              <p class="boot2" style="font-size: 16px;margin: 2rem 14rem; text-align: center;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                              <p class="paralay" style="font-size: 16px;margin: 2rem 14rem; text-align: center;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
                           </div>
                           <div class="footer pb-5" style="align-self: center;">
                             <button type="button" class="btn text-white col d-flex" style="background-color: rgb(26 188 156);font-size: 16px;"data-bs-dismiss="modal"><i class='bx bx-x' id="mark"></i> Close Window </button>
@@ -196,7 +233,7 @@
                         
                         </div>
                 </div>
-                <div class="photo col-4 mb-5 pe-4">
+                <div class="photo col-lg-4  col-md-6 mb-5 pe-4">
                     
                     <img class=" image staticBackdrop" src="bootstrap image-1/safe.png" alt="boot" data-bs-toggle="modal" data-bs-target="#staticBackdrop" >
                     <div class="modal fade"id="safe" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
@@ -205,19 +242,19 @@
                             <button type="button" class="btn-close  m-3"style="font-size:2rem;align-self:end;" data-bs-dismiss="modal" aria-label="Close"></button>
 
                           <div class="header">
-                            <p class="modal-title boot1 col d-flex justify-content-center" style="font-size: 48px;color:#2C3E50;font-weight: bolder;" id="staticBackdropLabel">LOCKED SAFE</p>
+                            <p class=" modal-title boot1 col d-flex justify-content-center" style="font-size: 48px;color:#2C3E50;font-weight: bolder;" id="staticBackdropLabel">LOCKED SAFE</p>
                             </div>
-                            <div class="d-flex justify-content-center">
+                            <div class="d-flex justify-content-center pt-4 pt-md-0">
                               <div class=" mt-4" style="width: 100%; max-width:7.5rem;height: 0%; border: 2.4px solid;border-radius: 4px;color:  #2C3E50;"></div>
                               <div class=" mx-2" style="font-size: 40px;color:  #2C3E50;"><i class='bx bxs-star' ></i></div>
                               <div class=" mt-4" style="width: 100%;max-width:7.5rem;height: 0%; border: 2.4px solid;border-radius: 4px;color:   #2C3E50;"></div>
                           </div>
                           
                         <div class="modal-body" style="align-self: center;">
-                              <img class="col d-flex "src="bootstrap image-1/safe.png" style="width:712px; height:513px; border-radius: 10px;">
+                              <img class="lay d-flex "src="bootstrap image-1/safe.png" style="width:712px; height:513px; border-radius: 10px;">
                             </div>
                         <div>
-                              <p class="boot2" style="font-size: 16px;margin: 2rem 14rem; text-align: center;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                              <p class="paralay" style="font-size: 16px;margin: 2rem 14rem; text-align: center;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
                           </div>
                           <div class="footer mb-5" style="align-self: center;">
                             <button type="button" class="btn text-white col d-flex" style="background-color: rgb(26 188 156);font-size: 16px;"data-bs-dismiss="modal"><i class='bx bx-x' id="mark"></i> Close Window </button>
@@ -232,7 +269,7 @@
                        
                         </div>
                 </div>
-                <div class="photo col-4 mb-5 pe-4">
+                <div class="photo col-lg-4  col-md-6 mb-5 pe-4">
                     
                     <img class=" image staticBackdrop" src="bootstrap image-1/submarine.png" alt="boot" data-bs-toggle="modal" data-bs-target="#staticBackdrop" >
                     <div class="modal fade"id="submarine" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
@@ -241,7 +278,7 @@
                             <button type="button" class="btn-close  m-3"style="font-size:2rem;align-self:end;" data-bs-dismiss="modal" aria-label="Close"></button>
 
                           <div class="header">
-                            <p class="modal-title boot1 col d-flex justify-content-center pt-4" style="font-size: 48px;color:#2C3E50;font-weight: bolder;" id="staticBackdropLabel">SUBMARINE</p>
+                            <p class="modal-title boot1 col d-flex justify-content-center pt-4 pt-md-0" style="font-size: 48px;color:#2C3E50;font-weight: bolder;" id="staticBackdropLabel">SUBMARINE</p>
                             </div>
                             <div class="d-flex justify-content-center">
                               <div class=" mt-4" style="width: 100%; max-width:7.5rem;height: 0%; border: 2.4px solid;border-radius: 4px;color:  #2C3E50;"></div>
@@ -250,10 +287,10 @@
                           </div>
                           
                         <div class="modal-body" style="align-self: center;">
-                              <img class="col d-flex "src="bootstrap image-1/submarine.png" style="width:712px; height:513px; border-radius: 10px;">
+                              <img class="lay d-flex "src="bootstrap image-1/submarine.png" style="width:712px; height:513px; border-radius: 10px;">
                             </div>
                         <div>
-                              <p class="boot2" style="font-size: 16px;margin: 2rem 14rem; text-align: center;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                              <p class="paralay" style="font-size: 16px;margin: 2rem 14rem; text-align: center;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
                           </div>
                           <div class="footer mb-5" style="align-self: center;">
                             <button type="button" class="btn text-white col d-flex" style="background-color: rgb(26 188 156);font-size: 16px;"data-bs-dismiss="modal"><i class='bx bx-x' id="mark"></i> Close Window </button>
@@ -274,14 +311,14 @@
         <div class="container-fluid mt-5 " style="background-color: rgb(26 188 156)">
         <p class="h1 text-white d-flex justify-content-center boot1" style="padding-top: 5rem;font-weight: bold;font-size: 48px;">ABOUT</p>
         <div class="d-flex justify-content-center">
-            <div class=" text-white mt-4 " style="width: 100%; max-width:6rem;height: 0%; border: 2.4px solid;border-radius: 4px;"></div>
+            <div class=" text-white mt-4 rounded" style="width: 100%; max-width:6rem;height: 0%; border: 2.4px solid;"></div>
             <div class=" text-white mx-3" style="font-size: 40px;"><i class='bx bxs-star' ></i></div>
-            <div class=" text-white mt-4 " style="width: 100%;max-width:6rem;height: 0%; border: 2.4px solid;border-radius: 4px;"></div>
+            <div class=" text-white mt-4 rounded " style="width: 100%;max-width:6rem;height: 0%; border: 2.4px solid; "></div>
         </div>
         <div class="container" >
-        <div class="col d-flex justify-content-center mt-3 ">
-            <p class="col-6 text-white boot2" style="font-size: 1.25rem;padding-left: 13rem;">Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy customization.</p>
-            <p class="col-6 text-white boot2" style="font-size: 1.25rem;padding-right: 13rem;padding-left: 1rem;">You can create your own custom avatar for the masthead, change the icon in the dividers, and add your email address to the contact form to                         make it fully functional!</p>
+        <div class="col d-flex justify-content-center mt-3 flex-md-column flex-lg-row">
+            <p class="col-lg-4 col-md-12 text-white boot2" style="font-size: 1.25rem;">Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy customization.</p>
+            <p class="col-lg-4 col-md-12  text-white boot2 ps-3 ps-md-0" style="font-size: 1.25rem;">You can create your own custom avatar for the masthead, change the icon in the dividers, and add your email address to the contact form to                         make it fully functional!</p>
         </div>
         </div>
         <div class="d-flex justify-content-center mt-5">
@@ -327,29 +364,29 @@
 
                     </form>
             </div>
-            <div class="container-fluid " style="background-color: #2C3E50;height: 270px; margin-right: 0px;">
-                <div class="container d-flex ">
-                <div class="col-4  text-white">
-                <h3 class="boot1 ps-5 " style="font-weight: bold;padding-top: 5rem; font-size:23.472px;text-align:center; ">LOCATION</h3>
-                <p class="boot2 pt-3 ps-2" style="font-size: 20px;margin-left: 3rem;text-align: center;">2215 John Daniel Drive<br>Clark, MO 65243</p>
+            <div class=" footer1 container-fluid " style="background-color: #2C3E50;height: 270px; margin-right: 0px;">
+                <div class="container d-flex flex-lg-row flex-md-column justify-content-center ">
+                <div class="col-12  col-lg-4  text-white">
+                <h3 class="title ps-5 " style="font-weight: bold;padding-top: 5rem; font-size:23.472px;text-align:center; ">LOCATION</h3>
+                <p class="subtitle pt-3 ps-2" style="font-size: 20px;margin-left: 3rem;text-align: center;">2215 John Daniel Drive<br>Clark, MO 65243</p>
                 </div>
-                <div class="col-4 text-white">
-                    <h3 class="boot1 " style="font-weight: bold;padding-top: 5rem; font-size:23.472px;text-align:center;">AROUND THE WEB</h3>
-                    <a class="" style="margin-left: 5.7rem; text-align: center;
+                <div class="col-12  col-lg-4  text-white">
+                    <h3 class="around " style="font-weight: bold;padding-top: 5rem; font-size:23.472px;text-align:center;">AROUND THE WEB</h3>
+                    <a class="facebook" style="margin-left: 5.7rem; text-align: center;
                     "href="#"><i class='bx bxl-facebook mt-3' id="icon"></i></a>
                     <a href="#"><i class='bx bxl-twitter' id="icon"></i></a>
                     <a href="#"><i class='bx bxl-linkedin' id="icon"></i></a>
                     <a href="#"><i class='bx bxs-basketball' id="icon"></i></a>
                     </div>
-                    <div class="col-4 text-white">
-                        <h3 class="boot1"style="font-weight: bold;padding-top: 5rem; font-size:23.472px; text-align:center;">ABOUT FREELANCER</h3>
-                        <p class="boot2 pt-3 " style="font-size: 20px; margin-left: 1rem;text-align: center;">Freelance is a free to use, MIT licensed Bootstrap theme created by<a href="#http://127.0.0.1:5500/index.html#:~:text=theme%20created%20by-,Start%20Bootstrap%20.,-Copyright%20%C2%A9%20Your%20Website" style="color:rgb(26 188 156) ; cursor: pointer;"> Start Bootstrap</a> .</p>
+                    <div class="col-12  col-lg-4  text-white">
+                        <h3 class="about"style="font-weight: bold;padding-top: 5rem; font-size:23.472px; text-align:center;">ABOUT FREELANCER</h3>
+                        <p class="use pt-3 " style="font-size: 20px; margin-left: 1rem;text-align: center;">Freelance is a free to use, MIT licensed Bootstrap theme created by<a href="#http://127.0.0.1:5500/index.html#:~:text=theme%20created%20by-,Start%20Bootstrap%20.,-Copyright%20%C2%A9%20Your%20Website" style="color:rgb(26 188 156) ; cursor: pointer;"> Start Bootstrap</a> .</p>
                     </div>
                     </div>
                 </div>
-                <div class="container-fluid d-flex justify-content-center  py-3" style="background-color:#1A252F; height: 60px;">
+                <div class=" footer container-fluid d-flex justify-content-center  py-2" style="background-color:#1A252F; height: 60px;">
                     <footer>
-                        <p class="text-white">Copyright © Your Website 2023</p>
+                        <p class="text-white pt-md-3">Copyright © Your Website 2023</p>
                     </footer>
                 </div>
 

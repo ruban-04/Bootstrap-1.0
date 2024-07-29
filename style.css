@@ -1,9 +1,27 @@
 
 .boot1{
-    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important;
 }
 .boot2{
     font-family:  "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+.paralay{
+  font-family:  "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+.title{
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important;
+}
+.subtitle{
+  font-family:  "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+.around{
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important;
+}
+.about{
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important;
+}
+.use{
+  font-family:  "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 .portfolio{
     color: white;
@@ -12,7 +30,7 @@
     
 }
 .portfolio:hover{
-    color: rgb(26 188 156);
+    color: rgb(26 188 156) !important;
 }
 
    .box{
@@ -103,3 +121,63 @@
     font-size: 14px;
   }
  
+  @media only screen and (min-width:1023px) and (max-width:1439px) {
+
+  
+.h2{
+padding-left: 18px !important;
+}
+.list-inline{
+  padding-right: 69px !important;
+ 
+}
+
+.facebook{
+  margin-left: 2.3rem !important;
+}
+
+  }
+  @media only screen and (min-width:767px) and (max-width:1022px){
+
+.h2{
+  font-size: 20px !important;
+  padding-left: 10px !important;
+}
+.lay{
+  width: 429px !important;
+  height: 313px !important;
+}
+.modal-title{
+  font-size: 36px !important;
+}
+.paralay{
+  margin: 2rem 2rem !important;
+}
+.footer1{
+  height: 575px !important;
+}
+.around{
+  padding-top: 20px !important;
+  padding-left: 65px;
+}
+.facebook{
+   margin-left: 15.9rem !important;
+}
+.about{
+  padding-top: 50px !important;
+  padding-left: 65px;
+}
+.footer{
+  height: 70px !important;
+}
+.h1{
+  font-size: 36px !important;
+}
+.h2{
+  font-size: 20px !important;
+}
+.start{
+  font-size: 44px !important; 
+}
+  }
+  
