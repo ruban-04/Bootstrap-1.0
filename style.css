@@ -131,9 +131,11 @@
  
   @media only screen and (min-width:1023px) and (max-width:1439px) {
 
-  
+  .navbar-nav{
+    padding-right: 60px !important;
+  }
 .h2{
-padding-left: 30px !important;
+padding-left: 24px !important;
 }
 .list-inline{
   padding-right: 63px !important;
@@ -149,13 +151,19 @@ padding-left: 30px !important;
 
   }
   @media only screen and (min-width:767px) and (max-width:1022px){
-
+    .button{
+      margin-right: -10px !important;
+    }
+    .navbar{
+      height: auto !important;
+    }
     .nav-item{
       padding-left: 0px !important;
     }
 .h2{
   font-size: 20px !important;
   padding-left: 10px !important;
+  margin-bottom: 0.5rem !important;
 }
 .lay{
   width: 429px !important;
@@ -203,14 +211,18 @@ padding-left: 30px !important;
     .nav-item{
       padding-left: 0px !important;
     }
+    .button{
+      margin-right: -14px !important;
+    }
+   
 .h2{
   font-size: 20px !important;
-  padding-top: 7px !important;
+  padding-top: 0px !important;
   padding-left: 0px !important;
 }
 .navbar{
  padding: 12px 0px !important;
-
+ height: auto !important;
 }
 .navbar-toggler{
 
@@ -284,6 +296,10 @@ padding:0.5rem !important;
     .nav-item{
       padding-left: 0px !important;
     }
+    .button{
+      margin-right: -14px !important;
+    }
+    
 .h2{
   font-size: 20px !important;
   padding-left: 1px !important;
@@ -291,6 +307,7 @@ padding:0.5rem !important;
 }
 .navbar{
   padding: 8px 0px !important;
+  height: auto !important;
 }
 /* .navbar-toggler{
   margin: -17px !important;
@@ -355,13 +372,18 @@ padding:0.5rem !important;
     .nav-item{
       padding-left: 0px !important;
     }
+    .button{
+      margin-left: -14px !important;
+    }
     .h2{
       font-size: 20px !important;
       padding-left: 0px !important;
     }
       .navbar{
       padding: 7px 0px !important;
+      height: auto !important;
     }
+    
     .start{
       font-size: 44px !important;
       text-align: center;
